@@ -16,11 +16,6 @@ jobs:
           - beyond2lteks
           - beyondx
           - beyondxks
-          - d1
-          - d1xks
-          - d2s
-          - d2x
-          - d2xks
         mode:
           - ksun
     runs-on: ubuntu-latest 
