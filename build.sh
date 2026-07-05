@@ -9,7 +9,7 @@ export OUT_DIR=${ANDROID_BUILD_TOP}/out
 
 # Import KernelSU-Next driver
 if [ "${MODE}" == 'ksun' ]; then
-    curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/legacy/kernel/setup.sh" | bash -s legacy
+    curl -LSs "https://raw.githubusercontent.com/emadhamid7/KernelSU-Next/legacy/kernel/setup.sh" | bash -s legacy
 fi
 
 # Define specific variables
